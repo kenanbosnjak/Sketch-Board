@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+    font-family: "Audiowide", sans-serif;
+    font-size: 60px;
+}
+
+main {
+
+    height: 600px;  
+    width: 1165px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content1{
+height: 600px;
+width: 600px;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 20px;
+}
+
+.content2{
+height: 600px;
+width: 600px;
+box-shadow: -1px 0px 20px 9px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 0px 20px 9px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 0px 20px 9px rgba(0,0,0,0.75);
+display: grid;
+}
+
+.actions{
+    width: 300px;
+    height: 50px;
+    border: 2px solid black;
+    border-radius: 20px;
+    font-family: "Audiowide", sans-serif;
+    transition: background-color 0.3s ease;
+
+}
+
+.actions:hover{
+   background-color: black;
+   color: white;
+   border: 2px solid white; 
+}
+
+.actions:active{
+    background-color: black;
+    color: white;
+    border: 2px solid white; 
+    opacity: 0.6;
+}
+
+
+
